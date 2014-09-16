@@ -5,6 +5,7 @@ $col_dark: #4b5421;
   display: block;
   width: 100%;
   position: fixed;
+  top:0;
   color: $col_dark;
   padding: .5em 1em;
   background: rgba(255,255,255,.8);
@@ -63,4 +64,18 @@ $col_dark: #4b5421;
     text-align: center;
   }
 }
+
+#gotoStore{
+  background: #eee;
+  padding:1.5em;
+  p{
+    text-align: center;
+  }
+}
+
+.post-template{
+  margin-top: 6em;
+}
+
+
 
