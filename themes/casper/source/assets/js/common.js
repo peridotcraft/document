@@ -3,7 +3,12 @@
   $(function() {
     console.log("PERIDOT MAKE THE FUTURE");
     return $(".mobileToggle").on("click", function() {
-      return $(".foldingArea").toggleClass("active");
+      $(".foldingArea").toggleClass("active");
+      if (($(".mobileMenu:visible").length)) {
+        return false;
+      } else {
+        return true;
+      }
     });
   });
 
