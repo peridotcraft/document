@@ -3,7 +3,12 @@
 ## USAGE
 
 compass: `$ make compass`
+
 server: `$ hexo server`
+
+build: `$ hexo generate`
+
+deploy: `$ hexo deploy`
 
 ## ページの追加
 
