@@ -1,0 +1,45 @@
+#fixedHeader{
+  display: block;
+  width: 100%;
+  position: fixed;
+  top:0;
+  color: $col_dark;
+  padding: .5em 1em;
+  background: rgba(255,255,255,.8);
+  a{
+    color: $col_dark;
+  }
+  .brand{
+    height: 2em;
+  }
+  z-index: 1000;
+
+  ul.desktopMenu{
+    display: inline-block;
+    li{
+      display: inline-block;
+      padding-right: 2em;
+    }
+  }
+  .mobileMenu{
+    margin-top: 1em;
+    .foldingArea{
+      display: none;
+      ul{
+        list-style: none;
+        padding: 0;
+        li{
+          padding : .5em;
+          border-bottom: 1px solid $col_base;
+        }
+      }
+      p{
+        text-align: center;
+      }
+    }
+    .foldingArea.active{
+      display: block;
+    }
+  }
+
+}
